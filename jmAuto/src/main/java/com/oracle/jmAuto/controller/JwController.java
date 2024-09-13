@@ -22,7 +22,7 @@ public class JwController {
 	// 1. 메인페이지에서 CS 메인으로 이동되었을때
 	@GetMapping(value = "/view_jw/cs")
 	public String main() {
-		System.out.println("JwController cs Start...");
+		System.out.println("메롱메롱JwController cs Start...");
 		
 		
 		return "view_jw/csMain";
